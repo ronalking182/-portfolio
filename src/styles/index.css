@@ -1,0 +1,122 @@
+.container {
+  color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, right top, from(#feac5e), color-stop(#c779d0), to(#4bc0c8));
+  background-image: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 10s ease infinite;
+          animation: gradient 10s ease infinite;
+  height: 100vh;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container .home-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  top: 60px;
+}
+
+.container .home-wrapper .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .home-wrapper .shown_text {
+  color: black;
+  position: relative;
+  top: 25px;
+  padding: 7px 13px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 920px) {
+  .container .home-wrapper .shown_text {
+    padding: 5px;
+    width: 100px;
+  }
+}
+
+.container .home-wrapper .hidden_text {
+  display: none;
+}
+
+@media screen and (min-width: 920px) {
+  .container .home-wrapper .hidden_text .hidden_text {
+    display: block;
+  }
+}
+
+.container .big_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .big_text .job {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.container .big_text .location {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #f2f6f9;
+}
+
+.container .small_text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=index.css.map */

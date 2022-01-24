@@ -1,0 +1,17 @@
+.con{
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 12%);
+    backdrop-filter: blur(7px);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+@media screen and (min-width:920px) {
+    .con{
+        text-align: center;
+    } 
+}

@@ -1,0 +1,14 @@
+.pic{
+    max-width: 300px !important;
+    min-width: 200px !important;
+    max-height: 300px !important;
+    min-height: 200px !important;
+    border-radius: 50%;
+    background: transparent;
+    border-width:10px; 
+    box-shadow: -30px -20px 20px 
+    rgb(227 135 255 / 30%),
+     0px 40px 20px 
+    rgb(255 219 57 / 30%), 
+    30px -20px 20px rgb(118 255 255 / 22%)
+   }
