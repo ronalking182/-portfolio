@@ -1,7 +1,10 @@
 .con{
     display: flex;
-    width: auto;
-    height: auto;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    width: auto !important;
+    height: 15%;
     font-size: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgb(31 38 135 / 12%);

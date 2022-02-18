@@ -1,0 +1,149 @@
+.classic__homePage{
+    
+    background-image: linear-gradient(
+        90deg, #feac5e, #c779d0, #4bc0c8);
+            background-size: 400% 400%;
+            animation: gradient 10s ease infinite;
+            height: 150vh;
+            // padding: 20px 0 120px 0;
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                } 
+                
+            }
+            width: 100vw;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+}
+
+
+.wrapper__page{
+    width: 100%;
+    margin: auto;
+    // border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.my__self{
+    // border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.X{
+    margin-top: 5%;
+}
+
+.pictureMe{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+
+.self{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.myName{
+    font-size: 1.5rem;
+}
+
+.big_text{
+    font-size: 2.5rem;
+}
+
+.what_i_know{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+//  border: 1px solid red;
+padding: 10%;
+text-align: center;
+}
+.self_introduction{
+    width: 100%;
+    font-size: 1rem;
+}
+.self{
+    padding: 0;
+}
+
+
+
+@media screen and (max-width:280px) {
+    .classic__homePage{
+        height:210vh;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .classic__homePage{
+        height:215vh;
+         text-align: center;
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    .classic__homePage{
+        height:100vh;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .classic__homePage{
+        height:150vh !important;
+    }
+    .wrapper__page{
+        // border: 1px so lid black;
+        height: 100vh !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .what_i_know{
+        padding: 0 10%;
+        // border: 1px solid brown;
+        height: 50%;
+        display: flex !important;
+        flex-direction: column;
+       align-items:center !important;
+       padding: 0;
+       justify-content: space-evenly;
+    } 
+    .self{
+        padding: 0 5%;
+    }
+    .self_introduction{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .classic__homePage{
+        height:120vh;
+    }
+}

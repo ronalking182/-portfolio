@@ -1,0 +1,326 @@
+.about__page{
+    color: whitesmoke;
+    background-color: #03001e;
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 12%);
+    backdrop-filter: blur(7px);
+    width: 100vw;
+    margin: auto;
+    height: 200vh;
+    padding: 70px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .big__intro{
+        width: 100%;
+       text-align: start;
+       background-color: #f3ec78;
+       background: linear-gradient(
+   90deg
+   , #feac5e, #c779d0, #4bc0c8);
+       background-image: linear-gradient(
+   90deg
+   , rgb(254, 172, 94), rgb(199, 121, 208), rgb(75, 192, 200));
+       background-position-x: initial;
+   background-position-y: initial;
+   background-size: 400% 400%;
+   background-attachment: initial;
+   background-origin: initial;
+   background-color: initial;
+   background-size: 400% 400%;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: gradient 4s ease infinite;
+   animation-duration: 4s;
+   animation-timing-function: ease;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+
+   animation-play-state: running;
+   animation-name: gradient;
+    }
+    h3{
+        width: 100%;
+        text-align: start;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+
+}
+.h4{
+    width: 100%;
+    text-align: start;
+    font-size: 2rem !important;
+
+    background-color: #f3ec78;
+    background: linear-gradient( 
+45deg, #20bdff, #a5fecb );
+    background-image: linear-gradient(
+45deg, rgb(32, 189, 255), rgb(165, 254, 203));
+background-position-x: initial;
+background-position-y: initial;
+background-size: 400% 400%;
+background-attachment: initial;
+background-origin: initial;
+background-color: initial;
+background-size: 400% 400%;
+background-clip: text;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 4s ease infinite;
+animation-duration: 4s;
+animation-timing-function: ease;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+
+animation-play-state: running;
+animation-name: gradient;
+}
+h2{
+    width: 100%;
+    text-align: start;
+    font-size: 1.7rem !important;
+}
+
+.logM{
+    height: 30px;
+    width: 30px;
+}
+
+.icon__social{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.reachOut{
+   font-size: 0.8rem;
+}
+.end__Intro{
+    // color: whitesmoke;
+    // background-color: #03001e;
+    padding-bottom:10%;
+}
+
+
+.S{
+   
+
+        background-color: #f3ec78;
+        background: linear-gradient( 
+    45deg, #20bdff, #a5fecb );
+        background-image: linear-gradient(
+    45deg, rgb(32, 189, 255), rgb(165, 254, 203));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: 400% 400%;
+    background-attachment: initial;
+    background-origin: initial;
+    background-color: initial;
+    background-size: 400% 400%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 4s ease infinite;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+ 
+    animation-play-state: running;
+    animation-name: gradient;
+        
+}
+
+.T{
+    background-color: #f3ec78;
+    background: linear-gradient( 
+45deg
+, #a770ef, #cf8bf3 );
+    background-image: linear-gradient(
+45deg
+, rgb(167, 112, 239), rgb(207, 139, 243));
+background-position-x: initial;
+background-position-y: initial;
+background-size: 400% 400%;
+background-attachment: initial;
+background-origin: initial;
+background-color: initial;
+background-size: 400% 400%;
+background-clip: text;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 4s ease infinite;
+animation-duration: 4s;
+animation-timing-function: ease;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+
+animation-play-state: running;
+animation-name: gradient;
+}
+
+.R{
+    background-color: #f3ec78;
+    background: linear-gradient( 
+45deg, #ef629f, #eecda3 );
+    background-image: linear-gradient(
+45deg, rgb(239, 98, 159), rgb(238, 205, 163));
+background-position-x: initial;
+background-position-y: initial;
+background-size: 400% 400%;
+background-attachment: initial;
+background-origin: initial;
+background-color: initial;
+background-size: 400% 400%;
+background-clip: text;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: gradient 4s ease infinite;
+animation-duration: 4s;
+animation-timing-function: ease;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+
+animation-play-state: running;
+animation-name: gradient;
+}
+
+
+
+
+@media screen and (min-width:280px) {
+    .about__page{
+        height:180vh !important;
+        text-align: center;
+    }
+    p{
+        font-size: .7rem !important;
+        text-align: start;
+    }
+    h2{
+        font-size: 1.3rem !important;
+    }
+    .h4{
+        font-size:1.5rem !important;
+    }
+}
+
+@media screen and (min-width:360px) {
+    .about__page{
+        height: 140vh !important;
+    }
+}
+@media screen and (min-width:375px) {
+    .about__page{
+        height: 150vh !important;
+    }
+}
+
+@media screen and (min-width:390px) {
+    .about__page{
+        height:120vh !important;
+    }
+}
+
+@media screen and (min-width:412px) {
+    .about__page{
+        height:100vh !important;
+    }
+}
+
+@media screen and (min-width:414px) {
+    .about__page{
+        height:110vh !important;
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    .reachOut{
+        font-size: 1rem;
+    }
+    .reachOut{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 80%;
+        // border: 1px solid blue;
+        padding: 0;
+        margin: 0;
+        text-align: start;
+    }
+
+    .about__page{
+        height:100vh;
+        height: auto;
+        padding: 0 7% 3% 7%;
+    }
+    p{
+        font-size: 1.1rem !important;
+        text-align: start;
+    }
+    h2{
+        font-size: 1.3rem !important;
+    }
+    .h4{
+        font-size:1.5rem !important;
+    }
+}
+@media screen and (min-width:912px) {
+
+
+
+    p{
+        font-size: 1.5rem !important;
+        text-align: start;
+    }
+    h2{
+        font-size: 1.8rem !important;
+    }
+    .h4{
+        font-size:2.1rem !important;
+    }
+
+}
+
+
+@media screen and (min-width:1000px) {
+    .about__page{
+        height:200vh !important;
+    }
+    p{
+        font-size: 1.3rem !important;
+        text-align: start;
+    }
+    h2{
+        font-size: 1.6rem !important;
+    }
+    .h4{
+        font-size:1.8rem !important;
+    }
+   
+   
+}
+
+
+@media screen and (min-width:1280px) {
+    .about__page{
+        height:120vh;
+    }
+}

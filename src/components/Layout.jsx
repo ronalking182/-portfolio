@@ -1,13 +1,17 @@
 import React from 'react'
 import NavBar from './NavBar/NavBar'
+// import GreatherThan from './UI/GreatherThan'
+// import { Link } from 'gatsby'
+// import { Button } from 'react-bootstrap'
+import FooterComponent from './Footer/FooterComponent'
+
 
 const Layout = ({children}) => {
     return (
-        <div>
-            {/* <section> */}
+        <div className='layOut'>
         <NavBar/>
-            {/* </section> */}
             {children}
+            <FooterComponent/>
         </div>
     )
 }
